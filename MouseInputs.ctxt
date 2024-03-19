@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=MouseInputs
+comment0.text=\r\n\ \r\n\ Yorum\r\n\ \u00C7izim\ panelinin\ fare\ girdilerini\ almas\u0131\ i\u00E7in\ java\ MouseListener\ ve\ MouseMotionListener\ interfacelerini\ kullan\u0131yor.\r\n\ \u00C7izim\ panelinin\ i\u00E7indeki\ oyundan,\ oyunun\ i\u00E7indeki\ Mouse\ objesini\ al\u0131yor.\ Mouse\ objesindeki\ x,\ y\ ve\ sol\ t\u0131k\ de\u011Ferlerini\ set\ ile\ de\u011Fi\u015Ftiriyor.\r\n\ \r\n\ \u00C7izim\ panelinin\ adresini\ i\u00E7inde\ tutuyor\ ve\ ayn\u0131\ zamanda\ \u00E7izim\ paneline\ atanm\u0131\u015F.\r\n\ \u00C7izim\ paneli\ constructorunda\ addMouseListener\ ile\ eklendi.\r\n\ \r\n\ \r\n\ MouseInputs\r\n\ Used\ for\ getting\ action\ performed\ by\ the\ user's\ mice\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\ \r\n
+comment1.params=drawPanel
+comment1.target=MouseInputs(DrawPanel)
+comment1.text=\r\n\ MouseInputs\r\n\ Constructor\ of\ the\ MouseInputs\ class\r\n
+comment2.params=e
+comment2.target=void\ mouseClicked(java.awt.event.MouseEvent)
+comment3.params=e
+comment3.target=void\ mousePressed(java.awt.event.MouseEvent)
+comment4.params=e
+comment4.target=void\ mouseReleased(java.awt.event.MouseEvent)
+comment5.params=e
+comment5.target=void\ mouseEntered(java.awt.event.MouseEvent)
+comment6.params=e
+comment6.target=void\ mouseExited(java.awt.event.MouseEvent)
+comment7.params=e
+comment7.target=void\ mouseDragged(java.awt.event.MouseEvent)
+comment8.params=e
+comment8.target=void\ mouseMoved(java.awt.event.MouseEvent)
+numComments=9

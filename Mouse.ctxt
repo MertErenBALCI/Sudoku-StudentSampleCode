@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Mouse
+comment0.text=\r\n\ \r\n\ Yorum\r\n\ Mouse\ de\u011Ferlerini\ tutmak\ i\u00E7in\ kullan\u0131l\u0131yor.\ Sadece\ setter\ ve\ getter\ metodlar\u0131\ var.\r\n\ \r\n\ Mouse\r\n\ Used\ for\ holding\ mouse\ values,\ only\ has\ setter\ and\ getter\ methods.\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Mouse()
+comment1.text=\r\n\ Mouse\r\n\ Constructor\ of\ the\ class\ mouse\r\n
+comment2.params=x\ y
+comment2.target=void\ setMousePosition(int,\ int)
+comment2.text=\r\n\ setMousePosition\r\n\ Sets\ both\ x\ and\ y\ values\ of\ the\ mouse\ to\ the\ given\ values\r\n\ @param\ x\ value\r\n\ @param\ y\ value\r\n
+comment3.params=click
+comment3.target=void\ setMouseLeft(boolean)
+comment3.text=\r\n\ setMouseLeft\r\n\ Sets\ the\ boolean\ value\ of\ left\ click\r\n\ @param\ boolean\ left\ click\r\n
+comment4.params=
+comment4.target=int\ getX()
+comment4.text=\r\n\ getX\r\n\ Returns\ the\ value\ of\ mouse\ x\r\n\ @return\ mouse\ x\r\n
+comment5.params=
+comment5.target=int\ getY()
+comment5.text=\r\n\ getY\r\n\ Returns\ the\ value\ of\ mouse\ y\r\n\ @return\ mouse\ y\r\n
+comment6.params=
+comment6.target=boolean\ getLeftClick()
+comment6.text=\r\n\ getLeftClick\r\n\ Returns\ the\ value\ of\ mouse\ left\r\n\ @return\ boolean\ mouse\ left\r\n
+numComments=7

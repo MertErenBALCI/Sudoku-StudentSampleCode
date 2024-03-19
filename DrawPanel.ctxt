@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DrawPanel
+comment0.text=\r\n\ Yorum\r\n\ \r\n\ \u00C7izim\ i\u015Flemlerinin\ ve\ mouse\ girdilerinin\ ger\u00E7ekle\u015Fmesi\ i\u00E7in\ kullan\u0131lan\ JPanel\ childi.\r\n\ \r\n\ DrawPanel\r\n\ This\ class\ is\ used\ for\ drawing\ and\ mouse\ inputs.\r\n
+comment1.params=game\ component\ panelY\ panelWidth\ panelHeight\ color
+comment1.target=DrawPanel(Game,\ javax.swing.JComponent,\ int,\ int,\ int,\ java.awt.Color)
+comment1.text=\r\n\ \r\n\ Yorum\r\n\ Oyunu\ \u00E7izmek\ i\u00E7in\ i\u00E7ine\ oyunu\ al\u0131yor.\ JComponenti\ kendini\ windowdaki\ anaPanele\ eklemek\ i\u00E7in\ al\u0131yor.\r\n\ \r\n\ DrawPanel\r\n\ Constructor\ of\ the\ class\ DrawPanel\r\n\ \r\n
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment2.text=\r\n\ Yorum\r\n\ \u00C7izim\ yap\u0131lmas\u0131\ i\u00E7in\ Graphics\ contextini\ olu\u015Fturuyor.\r\n\ Game\ i\u00E7indeki\ update\ metodundaki\ \u00E7izimPaneli.repaint()\ ile\ s\u00FCrekli\ \u00E7a\u011F\u0131r\u0131l\u0131yor.\r\n\ \u00D6ncelikle\ arka\ plan\u0131\ \u00E7izip\ sonras\u0131nda\ game.draw\ ile\ oyun\ \u00E7iziliyor.\r\n\ \r\n\ \r\n
+comment3.params=
+comment3.target=int\ getWidth()
+comment3.text=\r\n\ Yorum\r\n\ Getter\ metodlar\u0131.\r\n\ \r\n\ getWidth\r\n\ Returns\ the\ width\ of\ panel\r\n\ @return\ width\r\n
+comment4.params=
+comment4.target=int\ getHeight()
+comment4.text=\r\n\ getHeight\r\n\ Returns\ the\ height\ of\ panel\r\n\ @return\ height\r\n
+comment5.params=
+comment5.target=Game\ getGame()
+comment5.text=\r\n\ getGame\r\n\ Returns\ the\ game\ content\r\n\ @return\ game\ object\r\n
+numComments=6

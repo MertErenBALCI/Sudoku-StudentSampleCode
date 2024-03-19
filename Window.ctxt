@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Window
+comment0.text=\r\n\ \r\n\ Yorum\r\n\ JFrame\ objesini\ olu\u015Fturan\ ana\ pencere.\r\n\ \u0130ki\ k\u0131s\u0131mdan\ olu\u015Fuyor,\ butonPaneli\ ve\ \u00E7izimPaneli.\r\n\ \r\n\ Window\r\n\ This\ class\ used\ for\ the\ creating\ the\ main\ JFrame\ content.\r\n\ \r\n
+comment1.params=game\ windowWidth\ windowHeight
+comment1.target=Window(Game,\ int,\ int)
+comment1.text=\r\n\ \r\n\ Yorum\r\n\ Window\ constuctoru,\ geni\u015Flik\ ve\ y\u00FCkseklik\ alarak\ pencere\ olu\u015Fturuyor.\ \u00C7izim\ paneli\ ve\ butonlar\u0131\ kendine\ ekliyor.\r\n\ \r\n\ Game\ parametresini\ \u00E7izim\ panelinin\ i\u00E7ine\ g\u00F6ndermek\ i\u00E7in\ al\u0131yor.\r\n\ \r\n\ Window\r\n\ Constructor\ of\ the\ Window\ class\r\n\ @param\ game\ object\r\n\ @param\ width\r\n\ @param\ height\r\n
+comment2.params=
+comment2.target=DrawPanel\ getDrawPanel()
+comment2.text=\r\n\ Yorum\r\n\ \u00E7izimPaneli\ getter\r\n\ \r\n\ getDrawPanel\r\n\ Returns\ the\ draw\ panel\r\n\ @return\ draw\ panel\r\n
+comment3.params=
+comment3.target=javax.swing.JFrame\ getWindow()
+comment3.text=\r\n\ getWindow\r\n\ Returns\ the\ JFrame\ window\r\n\ @return\ window\r\n
+comment4.params=name
+comment4.target=Button\ getButtonByName(java.lang.String)
+comment4.text=\r\n\ Yorum\r\n\ Al\u0131nan\ ada\ g\u00F6re\ buton\ dizisindeki\ ayn\u0131\ ada\ sahip\ buton\ d\u00F6nd\u00FCr\u00FCl\u00FCyor.\r\n\ \r\n\ getButtonByName\r\n\ Finds\ and\ returns\ the\ button\ in\ the\ buttons\ array\r\n\ @param\ button\ name\r\n\ @return\ button\r\n
+numComments=5

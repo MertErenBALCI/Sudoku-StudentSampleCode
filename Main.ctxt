@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Yorum\r\n\ main\ metodu.\r\n\ Se\u00E7ime\ g\u00F6re\ GUI\ ya\ da\ UI\ ba\u015Flat\u0131yor.\r\n\r\n\ Main\r\n\ Main\ class\ that\ starts\ GUI\ or\ UI\ based\ on\ user\ choice.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

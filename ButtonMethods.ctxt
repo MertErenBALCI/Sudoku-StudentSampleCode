@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ButtonMethods
+comment0.text=\r\n\ \r\n\ Yorum\r\n\ \u0130stenen\ buton\ fonksiyonlar\u0131n\u0131n\ hepsi\ burada\ ger\u00E7ekle\u015Fiyor.\ Save,\ load,\ clear,\ undo\ \r\n\ UI\ i\u00E7in\ de\ Assign\ objesi\ yerine\ bu\ class\ kullan\u0131labilir\ fakat\ UI\ ve\ Assign\ tamamen\ de\u011Fi\u015Ftirmemek\ i\u00E7in\ kullanmad\u0131m.\r\n\ \r\n\ ButtonMethods\r\n\ This\ class\ handles\ all\ functions\ of\ the\ game.\r\n\ @author\ Lauren\ Scott\r\n\ @version\ Student\ Sample\ Code\r\n
+comment1.params=arg0\ arg1
+comment1.target=void\ update(java.util.Observable,\ java.lang.Object)
+comment2.params=game
+comment2.target=ButtonMethods(Sudoku)
+comment2.text=\r\n\ \r\n\ Yorum\r\n\ Sadece\ oyunu\ al\u0131p\ sudokunun\ kopyas\u0131n\u0131\ al\u0131yor\ ve\ eski\ hamleler\ stackini\ olu\u015Fturuyor.\r\n\ \r\n\ ButtonMethods\r\n\ This\ constructor\ initializes\ as\ Observer\ and\ gets\ game\ and\ moves\ array\ from\ given\ Sudoku\ then\ initializes\ the\ previous\ move\ stack.\r\n\ @param\ sudoku\ object\r\n
+comment3.params=row\ col\ number
+comment3.target=boolean\ makeMove(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ \r\n\ Yorum\r\n\ Sat\u0131r\ s\u00FCtun\ ve\ de\u011Fere\ g\u00F6re\ sudoku\ i\u00E7inde\ haz\u0131r\ olan\ makeMove\ metodunu\ \u00E7a\u011F\u0131r\u0131p\ sat\u0131r\ ve\ s\u00FCtundaki\ eski\ de\u011Feri,\ eski\ hamleler\ stackine\ pushluyor.\r\n\ \r\n\ makeMove\r\n\ This\ method\ changes\ the\ selected\ slot\ with\ given\ state\ if\ it\ can.\ It\ returns\ true\ when\ it\ could\ change\ the\ value,\ false\ if\ it\ could\ not.\r\n\ @param\ row\ value\ as\ string\r\n\ @param\ col\ value\ as\ string\r\n\ @param\ state\ valuse\ as\ string\r\n\ @return\ boolean\ value\r\n\ \r\n
+comment4.params=
+comment4.target=boolean\ UndoMove()
+comment4.text=\r\n\ \r\n\ Yorum\r\n\ Eski\ hamleler\ stackini\ pop\ at\u0131p\ i\u00E7indeki\ de\u011Feri\ sudokunun\ i\u00E7indeki\ de\u011Feri\ sudoku\ makeMove\ metoduyla\ de\u011Fi\u015Ftiriyor.\r\n\ \r\n\ \r\n\ undoMove\ \r\n\ This\ method\ undoes\ the\ previous\ move\ made\ in\ the\ game,\ along\ with\ the\ corresponding\ computer\ move.\r\n
+comment5.params=
+comment5.target=void\ ClearMoves()
+comment5.text=\r\n\ \r\n\ Yorum\r\n\ Slot\ arrayindeki\ t\u00FCm\ fillable\ olan\ alanlar\u0131n\ de\u011Ferini\ -\ yapar\ ve\ t\u00FCm\ eski\ hamleleri\ kald\u0131r\u0131r.\r\n\ \r\n\ clearGame\r\n\ This\ method\ clears\ the\ game\ board\ and\ any\ record\ of\ moves,\ to\ reset\ the\ game.\r\n
+comment6.params=
+comment6.target=void\ LoadGame()
+comment6.text=\r\n\ \r\n\ Yorum\r\n\ Dosyadan\ \u015Fekli\ okuyup\ setState\ metodu\ ile\ oyundaki\ slotlar\u0131\ de\u011Fi\u015Ftirir.\r\n\ Fakat\ fillable\ olup\ olmamalar\u0131n\u0131\ de\u011Fi\u015Ftiremez,\ \u00E7\u00FCnk\u00FC\ slotta\ setFillable\ metodu\ yok.\ \r\n\ Loadlad\u0131ktan\ sonra\ oyun\ d\u00FCzg\u00FCn\ \u00E7al\u0131\u015Fmayacakt\u0131r.\ Slot\ class\u0131n\u0131\ de\u011Fi\u015Ftirecek\ olsam\ setFillable\ metodu\ eklerdim.\r\n\ \r\n\ \r\n\ loadGame\r\n\ This\ method\ is\ used\ for\ loading\ a\ sudoku\ game\ from\ txt\ file.\ \r\n
+comment7.params=
+comment7.target=void\ SaveGame()
+comment7.text=\r\n\ \r\n\ Yorum\r\n\ Filewrite\ objesini\ kullanarak\ sudoku\ tablosunu\ dosyaya\ yazd\u0131r\u0131r.\r\n\ \r\n\ saveGame\ \r\n\ This\ method\ saves\ the\ current\ state\ of\ the\ board\ to\ a\ txt\ file.\r\n\ \r\n
+numComments=8
